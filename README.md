@@ -1,10 +1,16 @@
+## Greetings from Haus Makina A.Ş.
+
 # xmltohtmlforcanias
 berat ve kebirlerin görüntülerinin açılması
 
+* tools klasörü breat xslt lerin olduğu yerde xslt lerle aynı hizada olacak şekilde kopyalanmalı
 
-FINT11D001 dialoğu crosslanır
+* orkestra şefi bat dosyası
+* işi yapan saxon jar dosyası
 
-DETAIL buton içeriği
+* FINT11D001 dialoğu crosslanır
+
+* DETAIL buton içeriğine aşağıdaki ekleme yapılır
 
 <code>
 /* BURADA FINT11 İÇİN OLUŞTURALN GRUPTA OLAN KİŞİLERDE ÇALIŞMASI İÇİN KISIT EKLİYORUZ  
@@ -63,3 +69,6 @@ ELSE
 ENDIF;
 
 </code>
+
+* syst40 da yetki verilerin (HAKFINT11XMLTBL) kullanıcıların syst03 de dialog referanslarına crosslanmış dialog bilgisi kaydedilir.
+  
