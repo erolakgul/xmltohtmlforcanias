@@ -14,14 +14,14 @@ if "%~3"=="" (
     exit /b 1
 )
 
-set "JAVA=C:\e-CANIAS2016\HAUSASLOG\tools\jre\bin\java.exe"
-set "SAXON=C:\e-CANIAS2016\HAUSASLOG\tools\saxon-he-10.8.jar"
+set "JAVA=C:\XXXXXX\YYYYYY\tools\jre\bin\java.exe"
+set "SAXON=C:\XXXXXX\YYYYYY\tools\saxon-he-10.8.jar"
 
 set "IN_XML=%~1"
 set "IN_XSL=%~2"
 set "OUT_HTML=%~3"
 
-set "LOG_DIR=C:\e-CANIAS2016\HAUSASLOG"
+set "LOG_DIR=C:\XXXXXX\YYYYYY"
 set "OUTLOG=%LOG_DIR%\saxon_out.txt"
 set "ERRLOG=%LOG_DIR%\saxon_err.txt"
 
